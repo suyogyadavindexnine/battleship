@@ -177,3 +177,9 @@ function btnOver(img) {
 function btnOut(img) {
     img.src = "./assets/texture.jpg"
 }
+
+let myModal = new bootstrap.Modal(document.getElementById('myModal'));
+
+window.onload = () => {
+    myModal.show();
+}
